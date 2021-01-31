@@ -11,7 +11,8 @@ class App extends React.Component {
   constructor() {
     super()
     this.state = {
-      value: ''
+      value: '',
+      quote: 'this is a test'
     }
     this.handleChange = this.handleChange.bind(this)
     this.handleSubmit = this.handleSubmit.bind(this)
@@ -29,13 +30,14 @@ class App extends React.Component {
     return(
       <div className="App">
         <h1>Quotable</h1>
-        <form onSubmit={this.handleSubmit}>
+        {/* <form onSubmit={this.handleSubmit}>
           <label>
             Name:
           <input type="text" value={this.state.value} onChange={this.handleChange} />        </label>
           <input type="submit" value="Submit" />
-        </form>
-        <p>{this.state.value}</p>
+        </form> */}
+
+        <p>{this.state.quote}</p>
       </div>
     )
   }
