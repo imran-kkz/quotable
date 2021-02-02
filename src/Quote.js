@@ -3,7 +3,8 @@ import React from 'react'
 function Quote(props) {
   return (
     <div>
-    <p>this is a test</p>
+      <h3>{props.quote}</h3>
+      <h3>{props.author}</h3>
     </div>
   )
 }
