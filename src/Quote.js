@@ -7,3 +7,5 @@ function Quote(props) {
     </div>
   )
 }
+
+export default Quote

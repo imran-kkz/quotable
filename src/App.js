@@ -1,13 +1,13 @@
 import './App.css';
 import React from 'react'
 import data from './data'
+import Quote from './Quote'
 
 class App extends React.Component {
   constructor() {
     super()
     this.state = {
-      value: '',
-      quote: data.harrypotter 
+      value: ''
     }
   }
 
@@ -15,7 +15,7 @@ class App extends React.Component {
     return(
       <div className="App">
         <h1>Quotable</h1>
-        <p>{this.state.quote}</p>
+        <Quote/>
       </div>
     )
   }
