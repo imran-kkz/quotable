@@ -1,9 +1,19 @@
 const data = [
     {
-        harrypotter: {
-            "Albus Dumbledore" : "It does not do well to dwell on dreams and forget to live.",
-            albusDumbledore : "The truth. It is a beautiful and terrible thing, and should therefore be treated with great caution."
-        }
+        quote: "I hope you're pleased with yourselves. We could all have been killed — or worse, expelled. Now if you don't mind, I'm going to bed.",
+        author: "Hermione Granger"
+    },
+    {
+        quote: "It does not do well to dwell on dreams and forget to live.",
+        author: "Albus Dumbledore"
+    },
+    {
+        quote: "It takes a great deal of bravery to stand up to our enemies, but just as much to stand up to our friends.",
+        author: "Albus Dumbledore"
+    },
+    {
+        quote: "Yer a wizard Harry.",
+        author: "Rubeus Hagrid"
     }
 ]
 
