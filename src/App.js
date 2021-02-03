@@ -4,12 +4,10 @@ import data from './data'
 import Quote from './Quote'
 
 function App() {
-  const allQuotes = data.map(quote => {
-    <Quote key={data.id} quote={data.quote} author={data.author}/>
-  })
+  const allQuotes = data.map(item => <Quote key={item.id} quote={item.quote} author={item.author}/>)
+
   return(
     <div className="App">
-      <h1>Quotable</h1>
       {allQuotes}
     </div>
   )
