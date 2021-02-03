@@ -4,7 +4,7 @@ import data from './data'
 import Quote from './Quote'
 
 function App() {
-  const allQuotes = data.forEach(quote => {
+  const allQuotes = data.map(quote => {
     <Quote key={data.id} quote={data.quote} author={data.author}/>
   })
   return(
