@@ -3,8 +3,6 @@ import React, { Component } from 'react'
 import data from './data'
 import Quote from './Quote'
 
-var a
-
 class App extends Component {
   constructor() {
     super()
@@ -13,14 +11,7 @@ class App extends Component {
       quotes: data,
       title: ""
     }
-    // const allQuotes = data.map(item => <Quote key={item.id} quote={item.quote} author={item.author}/>)
   }
-
-  // handleChange(response) {
-  //   this.setState({
-  //     title: response
-  //   })
-  // }
 
   apiCall() {
     fetch('https://jsonplaceholder.typicode.com/todos/1')
