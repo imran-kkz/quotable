@@ -1,0 +1,52 @@
+{
+    "Quotes": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "Quote": {
+                        "S": "I hope you're pleased with yourselves. We could all have been killed — or worse, expelled. Now if you don't mind, I'm going to bed."
+                    },
+                    "Author": {
+                        "S": "Hermione Granger"
+                    } 
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Quote": {
+                        "S": "It does not do well to dwell on dreams and forget to live."
+                    },
+                    "Author": {
+                        "S": "Albus Dumbledore"
+                    } 
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Quote": {
+                        "S": "It takes a great deal of bravery to stand up to our enemies, but just as much to stand up to our friends."
+                    },
+                    "Author": {
+                        "S": "Albus Dumbledore"
+                    } 
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Quote": {
+                        "S": "Yer a wizard Harry."
+                    },
+                    "Author": {
+                        "S": "Rubeus Hagrid"
+                    } 
+                }
+            }
+        }
+    ]
+}
